@@ -52,7 +52,7 @@ main h1{
     height: 100vh;
     width: 100vw;
     color: white;
-    background: url("./src/assets/images/gamer.gif") black center;
+    background: url("/images/gamer.gif") black center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -120,7 +120,7 @@ li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./src/assets/images/cyberrain.gif);
+    background: url("/images/cyberrain.gif");
     font-family: cybercity;
 }
 .sadShop{
@@ -136,7 +136,7 @@ li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./src/assets/images/onlook.gif);
+    background: url("/images/onlook.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
