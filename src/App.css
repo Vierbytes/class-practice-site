@@ -1,0 +1,172 @@
+/* Add Custome Font Here */
+/* @font-face ??? */
+/* Specify a custom font */
+@font-face {
+    font-family: ethno;
+    src: url("./fonts/Ethnocentric-Regular.otf");
+}
+@font-face {
+    font-family: cybernic;
+    src: url("./fonts/cyber_2/Cyber.ttf");
+}
+@font-face {
+    font-family: cybercity;
+    src: url("./fonts/cyber_city/Cyber\ City.otf");
+}
+@font-face {
+    font-family: cyberexpert;
+    src: url("./fonts/CyberExpert.ttf");
+}
+@font-face {
+    font-family: cybernetic;
+    src: url("./fonts/CYBERNETIC.otf");
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+main h1{
+    font-family: ethno;
+    color: cyan;
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+    to left,
+    purple,
+    blue,
+    pink,
+    white
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: wave 3s linear infinite to right;
+}
+
+#homePage{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background: url("./src/assets/images/gamer.gif") black center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+#homeNav{
+    /* font-family:'Courier New', Courier, monospace; */
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background: black;
+    position: relative;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #df0024;
+    text-decoration: none;
+    text-align: center;
+    padding : 10px 15px;
+}
+
+li a:hover {
+    background-color: #f3c300;
+    color: black;
+    transition: .7s;
+    box-shadow: 5px 5px 20px white;
+    border-radius: 50px;
+}
+
+/* Coming Soon Styling */
+#comingSoon{
+    height: 100vh;
+    width: 100vw;
+    background: url("/images/comingsoon.gif") black center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cybernetic;
+}
+
+#sadShop{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./src/assets/images/cyberrain.gif);
+    font-family: cybercity;
+}
+.sadShop{
+    font-family: cybernic;
+
+}
+#contactUs{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./src/assets/images/onlook.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactUs{
+    font-family: cybercity;
+}
+
+
+h1 {
+    background: linear-gradient(
+        to right,
+        purple,
+        blue,
+        pink,
+        white
+        );
+        background-clip: text;
+        color: transparent;
+        background-size: 200% auto;
+        animation: wave 3s linear infinite;
+
+}
+
+
+@keyframes wave {
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
